@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '~/components/Layout/Default/Header';
 import SideBar from '~/components/Layout/Default/SideBar';
+import Header from '~/components/Layout/components/Header';
 
 function Default({ children }) {
     return (
