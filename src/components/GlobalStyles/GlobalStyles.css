@@ -27,4 +27,14 @@ body {
   color: var(--text-color);
 }
 
+button, input, [tabindex] {
+  outline: none;
+  border: none;
+}
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=GlobalStyles.css.map */
