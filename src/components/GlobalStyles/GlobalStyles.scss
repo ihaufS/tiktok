@@ -34,7 +34,12 @@ button, input, [tabindex] {
   border: none;
 }
 
-a[href] {
-  color: var(--text-color);
+//a[href] {
+//  color: var(--text-color);
+//  text-decoration: none;
+//}
+
+a {
+  //color: var(--text-color);
   text-decoration: none;
 }

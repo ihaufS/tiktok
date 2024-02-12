@@ -1,7 +1,7 @@
 .wrapper {
   --search-border-radius: 92px;
-  --search-height:46px;
-  --search-top-spacer:9px;
+  --search-height: 46px;
+  --search-top-spacer: 9px;
   --search-button-width: 52px;
 
   width: 100%;
@@ -49,7 +49,7 @@
   &::after {
     content: "";
     position: absolute;
-    top:var(--search-top-spacer);
+    top: var(--search-top-spacer);
     right: var(--search-button-width);
     width: 1px;
     height: calc(var(--search-height) - var(--search-top-spacer) * 2);
@@ -92,4 +92,15 @@
 
 .actions {
 
+}
+
+.search, .search-result {
+  width: 361px;
+}
+
+.search-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  color: rgba(22, 24, 35, 0.5);
 }
