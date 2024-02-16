@@ -12,7 +12,7 @@
   border: 1px solid transparent;
 }
 .wrapper + .wrapper {
-  margin: 18px;
+  margin-left: 18px;
 }
 .wrapper.disable {
   pointer-events: none;
@@ -21,6 +21,12 @@
 
 .icon + .title, .title + .icon {
   margin-left: 8px;
+}
+
+.icon {
+  display: inline-block;
+  text-align: center;
+  width: 24px;
 }
 
 .rounded {
